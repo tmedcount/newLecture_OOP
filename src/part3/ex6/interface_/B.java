@@ -1,10 +1,12 @@
 package part3.ex6.interface_;
 
-public class B {
 
-	public int total() {
-		
-		return 30;
-	}
-
+public class B implements X {
+  
+	public int total() { 
+  
+	  return 30;  
+  }
+	
 }
+ 
